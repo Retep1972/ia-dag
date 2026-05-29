@@ -1,146 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IA dag 2026</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conference Resources</title>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: #e2e8f0;
-            margin: 0;
-            padding: 30px;
-            text-align: center;
-        }
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 24px;
+      text-align: center;
+    }
 
-        .container {
-            max-width: 900px;
-            margin: auto;
-        }
+    .container {
+      max-width: 900px;
+      margin: auto;
+    }
 
-        h1 {
-            color: #38bdf8;
-            margin-bottom: 10px;
-        }
+    h1 {
+      color: #38bdf8;
+      margin-bottom: 8px;
+    }
 
-        p {
-            color: #cbd5e1;
-        }
+    .video-wrap {
+      position: relative;
+      margin-top: 24px;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #000;
+      box-shadow: 0 0 40px rgba(0,0,0,0.35);
+    }
 
-        .video-container {
-            margin-top: 25px;
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 0 40px rgba(0,0,0,0.35);
-        }
+    video {
+      width: 100%;
+      display: block;
+    }
 
-        iframe {
-            width: 100%;
-            height: 500px;
-            border: none;
-        }
+    #overlay {
+      display: none;
+      position: absolute;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.92);
+      color: #e2e8f0;
+      padding: 28px;
+      box-sizing: border-box;
+      text-align: left;
+      overflow-y: auto;
+    }
 
-        #awareness {
-            display: none;
-            margin-top: 30px;
-            background: #111827;
-            border: 1px solid #334155;
-            border-radius: 16px;
-            padding: 30px;
-            text-align: left;
-        }
+    #overlay h2 {
+      color: #fbbf24;
+      margin-top: 0;
+    }
 
-        #awareness h2 {
-            color: #fbbf24;
-            margin-top: 0;
-        }
+    #overlay ul {
+      line-height: 1.7;
+    }
 
-        ul {
-            line-height: 1.8;
-        }
+    .footer {
+      margin-top: 18px;
+      color: #94a3b8;
+      text-align: center;
+    }
 
-        .footer {
-            margin-top: 25px;
-            color: #64748b;
-            font-size: 0.9em;
-            text-align: center;
-        }
-
-        .loading {
-            margin-top: 15px;
-            color: #94a3b8;
-            font-style: italic;
-        }
-
-        .hint {
-            margin-top: 15px;
-            font-size: 0.9em;
-            color: #94a3b8;
-        }
-    </style>
+    .hint {
+      margin-top: 12px;
+      color: #94a3b8;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
 
 <div class="container">
+  <h1>Additional Conference Resources</h1>
+  <p>Loading OT references, frameworks and additional reading...</p>
 
-    <h1>IA dag 2026</h1>
-    <p>Ophalen aanvullende informatie...</p>
+  <div class="video-wrap">
+    <video autoplay muted playsinline controls loop>
+      <source src="rickroll.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
 
-    <div class="loading">
-        Please wait while resources are prepared...
+    <div id="overlay">
+      <h2>You just scanned an untrusted QR code.</h2>
+
+      <p>
+        In cybersecurity and OT environments,
+        <strong>curiosity is an attack surface.</strong>
+      </p>
+
+      <p>
+        QR phishing, also called <em>quishing</em>, is increasingly used for:
+      </p>
+
+      <ul>
+        <li>Credential theft</li>
+        <li>MFA harvesting</li>
+        <li>Malware delivery</li>
+        <li>Fake login portals</li>
+      </ul>
+
+      <p>
+        Even cybersecurity professionals scan things impulsively,
+        especially when something promises “extra resources”.
+      </p>
+
+      <p><strong>Trust, but verify.</strong></p>
+
+      <div class="footer">
+        Thanks for participating in the awareness exercise 🙂
+      </div>
     </div>
+  </div>
 
-    <div class="video-container">
-        <iframe
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1&playsinline=1&rel=0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-        </iframe>
-    </div>
-
-    <div class="hint">
-        (If audio did not start automatically, tap the video 😄)
-    </div>
-
-    <div id="awareness">
-
-        <h2>You just scanned an untrusted QR code.</h2>
-
-        <p>
-            In cybersecurity en IA,
-            <strong>nieuwsgierigheid is een attack surface.</strong>
-        </p>
-
-        <p>
-            QR phishing (<em>quishing</em>) is increasingly used for:
-        </p>
-
-        <ul>
-            <li>Credential theft</li>
-            <li>MFA harvesting</li>
-            <li>Malware delivery</li>
-            <li>Fake login portals</li>
-        </ul>
-
-       <p>
-            <strong>Trust, but verify.</strong>
-        </p>
-
-        <div class="footer">
-            Thanks for participating in the awareness exercise 🙂
-        </div>
-
-    </div>
-
+  <div class="hint">
+    If audio does not start automatically, tap the video.
+  </div>
 </div>
 
 <script>
-    // Reveal awareness message after 7 seconds
-    setTimeout(() => {
-        document.getElementById("awareness").style.display = "block";
-    }, 3000);
+  setTimeout(() => {
+    document.getElementById("overlay").style.display = "block";
+  }, 3000);
 </script>
 
 </body>
